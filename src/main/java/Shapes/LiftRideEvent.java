@@ -34,4 +34,6 @@ public class LiftRideEvent {
     public LiftRide getLiftRide() {
         return liftRide;
     }
+    public Integer getLiftTime(){return liftRide.getTime();}
+    public Integer getLiftID(){return liftRide.getLiftID();}
 }
